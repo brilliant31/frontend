@@ -1,0 +1,11 @@
+<!-- doctor-types.component.html -->
+<div class="doctor-square-container">
+    <div *ngFor="let doctorType of doctorTypes" class="doctor-square" (click)="redirectToDoctor(doctorType.route)">
+        <div class="doctor-image">
+            <img [src]="doctorType.imageUrl" alt="{{ doctorType.name }}">    
+        </div>
+        <h2>{{ doctorType.name }}</h2>
+        <!-- Additional content for doctor squares if needed -->
+    </div>
+</div>
+

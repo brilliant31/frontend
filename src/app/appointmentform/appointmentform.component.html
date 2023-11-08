@@ -1,0 +1,35 @@
+<div class="appointment-form">
+    <h2>Book an Appointment</h2>
+    <form (ngSubmit)="submitForm()">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" [(ngModel)]="formData.name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" [(ngModel)]="formData.email" required>
+      </div>
+      <div class="form-group">
+        <label for="doctorname">Doctor's Name:</label>
+        <input type="text" id="doctorname" name="doctorname" [(ngModel)]="formData.doctorname" required>
+      </div>
+      <div class="form-group">
+        <label for="specialisation">Specialisation:</label>
+        <input type="text" id="specialisation" name="specialisation" [(ngModel)]="formData.specialisation" required>
+      </div>
+      <div class="form-group">
+        <label for="contact">Doctor's Contact:</label>
+        <input type="text" id="doctorcontact" name="doctorcontact" [(ngModel)]="formData.doctorcontact" required>
+      </div>
+      <div class="form-group">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" [(ngModel)]="formData.date" required>
+      </div>
+      <div class="form-group">
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" [(ngModel)]="formData.time" required>
+      </div>
+      <button type="submit">Book Appointment</button>
+    </form>
+  </div>
+  

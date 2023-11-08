@@ -1,0 +1,74 @@
+/* Basic Reset for Margin and Padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.square {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.square-part img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.square-part h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.square-part p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.horizontal-div {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}

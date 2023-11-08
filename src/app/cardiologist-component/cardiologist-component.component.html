@@ -1,0 +1,28 @@
+<div *ngIf="cardiologist.length > 0">
+  <h2>Cardiologists</h2>
+  <div class="doctor-cards">
+    <div *ngFor="let cardiologists of cardiologist" class="doctor-card">
+      <div class="doctor-details">
+        <p><strong>Name :</strong>{{ cardiologists.username }}</p>
+        <p><strong>Specialization :</strong> {{ cardiologists.specialization }}</p>
+        <p><strong>Description:</strong>{{cardiologists.description}}</p>
+        <p><strong>Contact:</strong>{{cardiologists.contact}}</p>
+        <!-- Add more properties as needed -->
+      </div>
+      <button class="consult-button" (click)="navigateToAppointmentForm(cardiologist)">Consult Now</button>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="cardiologist.length === 0">
+  <p>No cardiologists available.</p>
+</div>
+
+
+
+
+  
+  
+  
+  
+  

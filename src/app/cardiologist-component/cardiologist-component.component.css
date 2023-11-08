@@ -1,0 +1,53 @@
+.cardiologist-container {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f5f5f5;
+}
+
+.centered-heading {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.doctor-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.doctor-details {
+  flex: 1;
+}
+
+.consult-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.consult-button:hover {
+  background-color: #0056b3;
+}
+
+.no-cardiologists {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* Add animations using Angular animations here */
+
+  

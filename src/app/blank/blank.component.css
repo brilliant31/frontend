@@ -1,0 +1,131 @@
+
+.upper{
+    display: flex; 
+    margin-top: 0;
+    width: 100%;
+    height:70%;
+   
+}
+
+.vertical-div{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    /*text-align: center;*/
+   
+} 
+
+#fifth{
+    flex:1;
+    
+}
+#sixth{
+    flex:1;
+   
+}
+#seventh{
+    flex:1;
+ 
+  
+}
+#eighth{
+    flex:1;
+  
+}
+#nineth{
+    flex:1;
+   
+}
+.imgg{
+    margin-top:25px;
+    margin-left:50px;
+}
+.middle{
+    margin-top:0;
+    width: 100%;
+    height: 80%;
+    background-color: #CAEDFF;
+}
+#image-div1{
+    width:100%;
+ height:70%;
+ display: flex;
+ border-radius:50%;
+}
+.img1{
+    margin-top:25px;
+    margin-left:50px;
+    height: 200px;
+}
+
+.imagepara
+{
+    margin-top: 10px;
+    text-align: center;
+    font-size: larger;
+    font-weight:900 ;
+}
+.button {
+    background-color: #6499E9; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:200px;
+    height:50px;
+    margin-left: 50px;
+  }
+  .button4 {border-radius: 12px;}  
+  .last{
+    width:100%;
+    height:50%;
+   
+   
+  }
+  .benefits{
+    display: flex;
+    
+    width:100%;
+    height:50%;
+  }
+  #l1{
+    flex:1;
+    
+  }
+  #l2{
+    flex:1;
+    
+    margin-left: 80px;
+
+  }
+ #l3{
+    flex:1;
+ }
+ .last2{
+    width: 100%;
+    height: 30%;
+    background-color: #394867;
+    display: flex;
+ }
+ #ll1
+ {
+  flex:1;
+  
+ }
+ #ll2{
+flex:1;
+ }
+ .button3{
+    width:400px;
+    margin-top: 90px;
+    margin-left: 200px;
+    padding-bottom:40px ;
+ }
